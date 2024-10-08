@@ -1,12 +1,3 @@
-#
-# Deploys the video-streaming microservice to Kubernetes.
-# 
-# To deploy:
-#
-# export CONTAINER_REGISTRY=<your-container-registry>
-# export VERSION=<the-version-to-deploy>
-# envsubst < ./scripts/kubernetes/deploy.yaml | kubectl apply -f -
-#
 apiVersion: apps/v1
 kind: Deployment
 metadata:
